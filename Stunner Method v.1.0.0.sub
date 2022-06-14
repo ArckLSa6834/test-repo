@@ -1,0 +1,24 @@
+// {{{ 2 "SubmethodForwardDeclaration" ""
+function OnAbort(  ) void ;
+// }} ""
+// {{{ 5 "OnAbort" "Begin"
+function OnAbort(  ) void {
+// }} ""
+// {{ 5 "OnAbort" "InitLocals"
+// }} ""
+// {{{ 16 1 0 "7673b6bd_7485_4d22_96902cbd02c441a6" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+AswStatusDialog::AppendText(Translate("METHOD ABORTED"));
+// }} ""
+/* {{ 1 "" "0" */ if(0){  /* }} "" */
+// {{{ 17 1 0 "882edc14_955a_4820_8f1e393ffdfb0201" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount::Write2(ML_STAR.MlStar50ulTipWithFilter, t_strTipCounter50, ML_STAR);
+// }} ""
+/* {{ 1 "" "1" */ } /* }} "" */
+// {{{ 18 1 0 "46e7989a_71ee_42b3_8be56d14850b379e" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+AswStatusDialog::Terminate();
+// }} ""
+// {{{ 5 "OnAbort" "End"
+}
+// }} ""
+/* {{ 2 "SubmethodInsertLine" "" */ // }} ""
+// $$author=FCNCHV-PhRD$$valid=0$$time=2022-06-14 17:29$$checksum=054278da$$length=090$$
